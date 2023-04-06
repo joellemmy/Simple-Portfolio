@@ -1,0 +1,136 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  nav:hover {
+    opacity: 0.7;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  nav a:hover {
+    background-color: hsl(113, 91%, 44%);
+    color: #333;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  #home-section {
+    background-color: #f2f2f2;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 50px;
+  }
+  #home-section {
+    background-image: url("dev.jpg");
+    background-size: 800px 600px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+  }
+  
+  #home-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #home-section p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #about-section {
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 50px;
+  }
+  
+  #about-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #about-section p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  #contact-section {
+    background-color: #7adbe7;
+    font-size: 1.5rem;
+    color: #333;
+    padding: 50px;
+  }
+  
+  #contact-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact-section p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #resume-section {
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+  
+  
